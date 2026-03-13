@@ -90,7 +90,7 @@ class Buyer {
     }
 
     void summary() {
-        StringBuilder itemList = new StringBuilder();
+        StringBuilder itemList = new StringBuilder();   // 변경이 잦아 불변 클래스 String 대신 사용함
         int useMoney = 0;
 
         // 구매 목록, 사용 금액 초기화
